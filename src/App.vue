@@ -30,7 +30,7 @@ export default class App extends Vue {
 }
 
 body {
-    font-family: 'monospace';
+    font-family: monospace;
     font-size: 12px;
     margin: 0;
     color: $dark-theme;
@@ -42,7 +42,7 @@ html, body {
 }
 
 input, textarea, input::placeholder {
-    font-family: 'monospace';
+    font-family: monospace;
     font-size: 12px;
 }
 
