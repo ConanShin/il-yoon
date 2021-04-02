@@ -13,11 +13,10 @@ export default class App extends Vue {
 <style lang="scss">
 @import 'src/assets/style/media-query';
 @import 'src/assets/style/common';
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 @font-face {
-    font-family: 'MapoFlowerIsland';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-family: 'NEXON Lv2 Gothic Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -30,7 +29,7 @@ export default class App extends Vue {
 }
 
 body {
-    font-family: monospace;
+    font-family: 'NEXON Lv2 Gothic Bold';
     font-size: 12px;
     margin: 0;
     color: $dark-theme;
@@ -42,7 +41,7 @@ html, body {
 }
 
 input, textarea, input::placeholder {
-    font-family: monospace;
+    font-family: 'NEXON Lv2 Gothic Bold';
     font-size: 12px;
 }
 
