@@ -2,7 +2,7 @@
     <div class="nav">
         <div @click="redirect('home')" class="logo">
             <div v-if="$route.path !== '/'">
-                <img src="@/assets/logo.png"/>
+                <img src="~@/assets/logo.png"/>
                 <span>일윤주식회사</span>
             </div>
         </div>
