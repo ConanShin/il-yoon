@@ -49,6 +49,7 @@ export default class Home extends Vue {
     }
     @include mobile {
         span {
+            margin-left: 10px;
             font-size: 30px;
         }
         img {
