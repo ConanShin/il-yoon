@@ -29,7 +29,7 @@ export default class App extends Vue {
 }
 
 body {
-    font-family: 'NEXON Lv2 Gothic Bold';
+    font-family: 'NEXON Lv2 Gothic Bold', sans-serif;
     font-size: 12px;
     margin: 0;
     color: $dark-theme;
@@ -41,7 +41,7 @@ html, body {
 }
 
 input, textarea, input::placeholder {
-    font-family: 'NEXON Lv2 Gothic Bold';
+    font-family: 'NEXON Lv2 Gothic Bold', sans-serif;
     font-size: 12px;
 }
 
